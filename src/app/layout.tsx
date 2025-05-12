@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
-
 import "./globals.css";
-
-import Login from "../components/Login";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
